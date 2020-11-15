@@ -754,7 +754,7 @@ body {
         font-size: calc(30px + 10 * (100vw / 1360));
         line-height: 110%;
         color: #FF0000;
-        margin: 35px 0 35px 0;
+        margin: 35px 0 25px 0;
     }
 
     // .main__section-subtitle-text
@@ -856,6 +856,155 @@ body {
         position: relative;
         overflow: hidden;
         margin: 40px 0 40px 0;
+    }
+//**************************************************************************************************
+//Анти Кафе ****************************************************************************************
+
+    // .main__section-antikafe
+
+    &__section-antikafe {
+        border-bottom: 1px solid #656565;;
+    }
+
+    // .main__section-title-antikafe
+
+    &__section-title-antikafe {
+        font-family: "Gasrux",Arial,sans-serif;
+        font-size: calc(30px + 10 * (100vw / 1360));
+        line-height: 110%;
+        color: #fff;
+        margin: 35px 0 25px 0;
+    }
+
+    // .main__section-desk-subtitle
+
+    &__section-desk-subtitle {
+        font-family: "Yanone Kaffeesatz",Arial,sans-serif;
+        font-size: calc(18px + 4 * (100vw / 1360));
+        line-height: 26px;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+        padding: 3px;
+    }
+
+    // .main__section-ul-services
+
+    &__section-ul-services {
+        width: 100%;
+        max-width: 705px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px 20px;
+        grid-template-areas:
+        "main__block-grid-1 main__block-grid-2 main__block-grid-3 main__block-grid-4"
+        "main__block-grid-1 main__block-grid-2 main__block-grid-3 main__block-grid-4";
+        margin: 80px 0 55px 0;
+        padding: 0 15px 0 15px;
+    }
+
+    // &__block-grid-2 { grid-area: main__block-grid-2; }
+    // &__block-grid-3 { grid-area: main__block-grid-3; }
+    // &__block-grid-4 { grid-area: main__block-grid-4; }
+    // &__block-grid-1 { grid-area: main__block-grid-1; }
+
+
+    // .main__service-li-antikafe
+
+    &__service-li-antikafe {
+    }
+
+    // .main__icon-animators-svg
+
+    &__icon-animators-svg {
+    }
+
+    // .main__icon-animators-follback
+
+    &__icon-animators-follback {
+    }
+
+    // .main__icon-chemshow60-svg
+
+    &__icon-chemshow60-svg {
+    }
+
+    // .main__icon-chemshow60-follback
+
+    &__icon-chemshow60-follback {
+    }
+
+    // .main__icon-magician-svg
+
+    &__icon-magician-svg {
+    }
+
+    // .main__icon-magician-follback
+
+    &__icon-magician-follback {
+    }
+
+    // .main__icon-bubble-svg
+
+    &__icon-bubble-svg {
+    }
+
+    // .main__icon-bubble-follback
+
+    &__icon-bubble-follback {
+    }
+
+    // .main__icon-chemshow-svg
+
+    &__icon-chemshow-svg {
+    }
+
+    // .main__icon-chemshow-follback
+
+    &__icon-chemshow-follback {
+    }
+
+    // .main__icon-mafia-svg
+
+    &__icon-mafia-svg {
+    }
+
+    // .main__icon-mafia-follback
+
+    &__icon-mafia-follback {
+    }
+
+    // .main__icon-papershow-svg
+
+    &__icon-papershow-svg {
+    }
+
+    // .main__icon-papershow-follback
+
+    &__icon-papershow-follback {
+    }
+
+    // .main__icon-confection-svg
+
+    &__icon-confection-svg {
+    }
+
+    // .main__icon-confection-follback
+
+    &__icon-confection-follback {
+    }
+
+    // .main__clarifying-information
+
+    &__clarifying-information {
+        font-family: "Yanone Kaffeesatz",Arial,sans-serif;
+        font-size: calc(18px + 4 * (100vw / 1360));
+        line-height: 26px;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+        padding: 3px;
     }
 //**************************************************************************************************
 }

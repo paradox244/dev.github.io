@@ -7,3 +7,15 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
 //**************************************************************************************************
+
+
+// Плавный переход по якорям
+$(document).ready(function(){
+    $("#nav-menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 800);
+    });
+});
+//**************************************************************************************************

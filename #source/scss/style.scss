@@ -724,6 +724,140 @@ body {
 
 //**************************************************************************************************
 
+// Слайдер свайпер *********************************************************************************
+
+    // .main__section-reviews
+
+    &__section-reviews {
+        background-color: #171717;
+    }
+
+    // .main__section-center-container
+
+    &__section-center-container {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    // .main__reviews-inner-container
+
+    &__reviews-inner-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    // .main__reviews-title
+
+    &__reviews-title {
+        font-family: "Gasrux",Arial,sans-serif;
+        font-size: calc(30px + 10 * (100vw / 1360));
+        line-height: 110%;
+        color: #FF0000;
+        margin: 35px 0 25px 0;
+    }
+
+    // .main__swiper-container
+
+    &__swiper-container {
+        width: 100%;
+    }
+
+    // .main__swiper-wrapper
+
+    &__swiper-wrapper {
+        min-width: 0;
+        max-width: 1170px;
+    }
+
+    // .main__swiper-slide
+
+    &__swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        min-width: 0;
+    }
+
+    // .main__user-name-reviews
+
+    &__user-name-reviews {
+        font-family: "Montserrat",Arial,sans-serif;
+        font-size: calc(18px + 4 * (100vw / 1360));
+        line-height: 26px;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    // .main__reviews-content-text
+
+    &__reviews-content-text {
+        font-family: "Montserrat",Arial,sans-serif;
+        font-size: calc(13px + 3 * (100vw / 1360));
+        line-height: 22px;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+        max-width: 500px;
+        padding: 0 20px 0 20px;
+    }
+
+    // .main__ul-stars-rating
+
+    &__ul-stars-rating {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 270px;
+        margin: 35px 0 0 0;
+    }
+
+    // .main__li-star-rating
+
+    &__li-star-rating {
+    }
+
+    // .main__icon-star-svg
+
+    &__icon-star-svg {
+    }
+
+    // .main__icon-star-follback
+
+    &__icon-star-follback {
+    }
+
+    // .main__our-reviews-link
+
+    &__our-reviews-link {
+        display: inline-block;
+        font-family: "Yanone Kaffeesatz",Arial,sans-serif;
+        font-size: calc(15px + 5 * (100vw / 1360));
+        color: #fff;
+        line-height: 24px;
+        padding: 10px 17px 7px 17px;
+        background-color: #FF0000;
+        text-transform: uppercase;
+        overflow: hidden;
+        margin: 6% 0 6% 0;
+    }
+
+    &__swiper-button-prev,
+    &__swiper-button-next {
+        color: #D20000;
+        font-size: calc(13px + 2 * (100vw / 1360));
+        @media (max-width:620px) {
+            display: none;
+        }
+    }
+
+//**************************************************************************************************
+
 // Цена ********************************************************************************************
 
     // .main__section-prices
@@ -894,28 +1028,23 @@ body {
         max-width: 705px;
         margin: 45px 0 45px 0;
         padding: 0 15px 0 15px;
-
-        li {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            max-width: 110px;
-            margin: 0 2% 3% 2%;
-        }
     }
-
-    // &__block-grid-2 { grid-area: main__block-grid-2; }
-    // &__block-grid-3 { grid-area: main__block-grid-3; }
-    // &__block-grid-4 { grid-area: main__block-grid-4; }
-    // &__block-grid-1 { grid-area: main__block-grid-1; }
-
 
     // .main__service-li-antikafe
 
     &__service-li-antikafe {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 120px;
+        margin: 0 2% 3% 2%;
+
+        @media (max-width: 280px) {
+            max-width: 110px;
+        }
     }
 
     // .main__desc-service-text

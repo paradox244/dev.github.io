@@ -303,15 +303,11 @@ body {
             height: 100%;
             background-color: rgba(#fff, 0.6);
             transform: translateX(-4em) skewX(-45deg);
-            animation: move-light 0.8s infinite;
+            animation: move-light 1.5s infinite;
             filter: blur(4px);
         }
 
         @keyframes move-light {
-            from {
-                transform: translateX(-2em) skewX(-45deg);
-            }
-
             to {
                 transform: translateX(10em) skewX(-45deg);
             }

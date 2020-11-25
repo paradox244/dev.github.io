@@ -33,7 +33,7 @@ var swiper = new Swiper('.main__swiper-container', {
     // Автопрокрутка слайдов
     autoplay: {
       //Пауза между прокруткой
-        delay: 2000,
+        delay: 4000,
       // Закончить на последнем слайде
         stopOnLastSlide: true,
       // Отключить после ручного переключения
